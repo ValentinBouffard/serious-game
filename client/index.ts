@@ -1,6 +1,6 @@
 
 import { Spritesheet, Animation, Direction, RpgClient, RpgModule } from '@rpgjs/client'
-import {Characters} from "./characters/characters";
+import {Characters, MainCharacters} from "./characters/characters";
 import {Images} from "./images";
 import {Animations} from "./animations";
 
@@ -22,6 +22,7 @@ export class Tilesets {
     spritesheets: [
         Tilesets,
         Characters,
+        MainCharacters,
         Images,
         Animations
     ]

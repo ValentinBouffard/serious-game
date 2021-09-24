@@ -1,5 +1,6 @@
-import { Characters } from './characters'
+import {Characters, MainCharacters} from './characters'
 
 export default [
-    Characters
+    Characters,
+    MainCharacters
 ]

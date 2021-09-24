@@ -4,11 +4,13 @@ import Characters from './characters'
 import { Images } from './images'
 import { Animations } from './animations'
 import {Musics} from "./sounds";
+import MainCharacters from "./characters";
 
 @RpgModule<RpgClient>({
     spritesheets: [
         MedievalTilesets,
         ...Characters,
+        ...MainCharacters,
         Images,
         Animations
     ],

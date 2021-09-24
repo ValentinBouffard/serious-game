@@ -2,9 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54da8625-b461-4354-8e18-b64d52a28e0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/standalone/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/standalone/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/standalone/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/standalone/bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/server/events/villager1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/server/events/villager1.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/characters/assets/Male 01-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/characters/assets/Male 01-1-bu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/characters/assets/Male 01-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/characters/assets/Male 01-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/characters/characters.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/characters/characters.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/characters/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/characters/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/fonts/16d33ee91b8648a0ca4068da09a852c3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/fonts/9919edff6283018571add043109dc20b.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/fonts/eecc603167e30713d02f7136ec4dbac8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/20e84465ea5009d1c4f07d05956dd85c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/22396539d1be54b11466d408756402ff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/37bc39f9a6b3ce8899a678b166ad576c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/3e8a7661231ff24041a741864164660d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/4cc118bbfb1338e5cff1359ba88b6cd7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/4f3897e0fac12666257dad6da3192155.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/55908d76a5d752357a7b8ba6e0d4771f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/61d5af8c9f486e03b2f85f74f6a3fd1a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/692f752f690038139cb638ab4014dd84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/7da5d2bf445314f78d560c3671ad488f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/a9ab3294ebe1f737f04b2db02f23b083.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/ae04fa415b33dfe3efa9cff4d23664c6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/b59efb237ba09d299fbef46751f7cc6f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/b6192e389d3e3a919d287d6ca5c1c7ae.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/bd7cffdbcabb5971a313821f4a6b43ea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/c9b677c0fef8a16b0558364a09b78ab7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/d4f8c0c1a512d8ceba9aa5a8ad8c7bd8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/e1a7c9b0d9af17e4a7bcf451c25be07c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/e28d973acc4f8e8d4d77f7b44c5635d2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/e920f9d087a671ed378ae0b635b3f3ac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/images/eb8a018bed9bef2423f0de7083e5ee6c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/05d28a378fa3b68d022326c0d39fb8ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/1a37e8979978d2876d0cb59f08f3f5cb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/3d508ecdd81393d37acbcf76a273a996.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/4b3f8fdf7d9a784d3983cf0c9497c305.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/687860eb75aeed0c0ff660fa62603958.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/7e781f82ecc355631d38b896f876a060.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/957bee4f7a26ef60f2b7e5f198817073.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/a95c65e25e213f6f4cf3e606d409fa49.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/b07714221885b075cb86a7affa6d0015.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/b5635f45a5a4a102c5dc2b97efdc6b86.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/baa8422e547399d33e4f041628bf4449.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/de1abb157f6c50b56243660d39388d90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/e18526c3858ff146ee10b0bbb4bd57c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/f32759e3c71d0291a189aaed9ed06657.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/maps/fa89979055c6b9881ca6a1ad5c98144d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/sounds/56f9ad982e8f0204630a015a3bd79955.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/sounds/5e7783a27922203c882c3e64a7da8fef.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/sounds/b0acd9b218e545b55be23c987ee66d28.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/sounds/d553c4587778882915a1181a9eeda2a3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/standalone/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/client/characters/assets/Male 01-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/client/characters/assets/Male 01-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/client/characters/assets/Male 01-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/client/characters/assets/Male 01-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/client/characters/characters.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/client/characters/characters.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/client/characters/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/client/characters/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/client/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/client/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/server/events/villager2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/server/events/villager2.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +80,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/database/items" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/characters/assets" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -33,6 +89,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/characters/assets" />
+      <recent name="$PROJECT_DIR$/src/modules/main/client/characters/assets" />
       <recent name="$PROJECT_DIR$/server/database/items" />
       <recent name="$PROJECT_DIR$/src/modules/main/server/database/items" />
       <recent name="$PROJECT_DIR$/src/modules/main/server/maps/tmx" />

@@ -1,4 +1,4 @@
-import { RpgEvent, EventData, RpgPlayer, Move } from '@rpgjs/server'
+import {Direction, EventData, Move, RpgEvent, RpgPlayer} from '@rpgjs/server'
 
 @EventData({
     name: 'EV-4',
@@ -12,7 +12,7 @@ export class Villager2Event extends RpgEvent {
         this.speed = 2
         this.frequency = 300
         this.setGraphic('male17')
-        this.infiniteMoveRoute([ Move.tileRandom() ])
+        this.infiniteMoveRoute([  Move.up(2), Move.down(2), Move.left(30),Move.right(30)])
     }
     async onAction(player: RpgPlayer) {
         if (player.getVariable('HAS_TALK_TO_MANAGER') && player.gold != 1000 &&  player.getVariable('GAIN_GOLD')) {
