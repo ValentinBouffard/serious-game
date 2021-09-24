@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54da8625-b461-4354-8e18-b64d52a28e0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/client/characters/chest.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/characters/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/characters/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/sounds/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/sounds/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/standalone/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/standalone/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/standalone/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/standalone/bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/database/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/database/items/key.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/server/database/items/PenguinsItem.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/database/items/potion.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/events/chest.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/maps/samplemap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/maps/samplemap.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/maps/tmx/samplemap.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/server/maps/tmx/samplemap.tmx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/client/characters/chest.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/client/characters/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/client/characters/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/client/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/client/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/client/sounds/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/client/sounds/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/server/database/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/server/database/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/server/database/items/key.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/server/database/items/potion.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/server/events/chest.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/server/events/shop.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/server/events/shop.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/main/server/events/villager1.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/server/events/villager1.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/server/events/villager2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/server/events/villager2.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/server/maps/samplemap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/server/maps/samplemap.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/main/server/maps/tmx/samplemap.tmx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/server/maps/tmx/samplemap.tmx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -25,7 +25,9 @@ export class Villager1Event extends RpgEvent {
                     talkWith: this
                 })
             }
-            return
+            await player.showText("❌ GAME OVER: YOU FAILED THE BRIBERY EXERCISE", {fullWidth: true, position: 'middle', typewriterEffect: true, autoClose: true
+            });
+            return;
         }
         else if (player.getVariable('HAS_TALK_TO_MANAGER')) {
             let texts = [
@@ -38,7 +40,9 @@ export class Villager1Event extends RpgEvent {
                     talkWith: this
                 })
             }
-            return
+            await player.showText("✅ CONGRATULATIONS: YOU SUCCEED THE BRIBERY EXERCISE", {fullWidth: true, position: 'middle', typewriterEffect: true, autoClose: true
+            });
+            return;
         }
         let texts = [
             '😍: Welcome Inspector !',
