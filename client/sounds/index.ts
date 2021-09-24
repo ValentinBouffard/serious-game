@@ -9,9 +9,9 @@ import { Sound } from '@rpgjs/client'
 })
 export class Musics {}
 
-@Sound({
-    sounds: {
-        chest: require('./assets/doorOpen_1.ogg'),
-    }
-})
-export class Sounds {}
+// @Sound({
+//     sounds: {
+//         chest: require('./assets/doorOpen_1.ogg'),
+//     }
+// })
+// export class Sounds {}

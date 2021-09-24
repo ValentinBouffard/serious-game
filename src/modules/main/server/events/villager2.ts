@@ -15,17 +15,23 @@ export class Villager2Event extends RpgEvent {
         this.infiniteMoveRoute([ Move.tileRandom() ])
     }
     async onAction(player: RpgPlayer) {
-        if (player.getVariable('GAIN_GOLD')) {
-            // await player.showText('Were you able to buy the dungeon key?', {
-            //     talkWith: this
-            // })
-            return
+        if (player.getVariable('HAS_TALK_TO_MANAGER') && player.gold != 1000 &&  player.getVariable('GAIN_GOLD')) {
+            let texts = [
+                '👺: Hey Inspector 🥰',
+                '👺: I noticed that you already spent the money I gave you earlier...',
+            ]
+            for (let msg of texts) {
+                await player.showText(msg, {
+                    talkWith: this
+                })
+            }
+            return;
         }
 
         let texts = [
-            'Morning Inspector !',
-            '😎 I\'m the boss of the factory ',
-            'Here is a gift for you.'
+            '👺: Morning Inspector !',
+            '👺: I\'m the boss of the factory ',
+            '👺: Here is a gift for you.'
         ]
         for (let msg of texts) {
             await player.showText(msg, {
@@ -33,20 +39,20 @@ export class Villager2Event extends RpgEvent {
             })
         }
         const choice = await player.showChoices('', [
-            { value: true, text: 'Thanks for the red bag' },
-            { value: false, text: 'No thank you, I will mention it to my manager' }
+            { value: true, text: '🕵️‍: Thanks for the red bag' },
+            { value: false, text: '🕵️‍: No thank you, I will mention it to my manager' }
         ], {
             talkWith: this
         })
         if (choice && choice.value) {
-            await player.showText('Here is 1000 RMB then!', {
+            await player.showText('👺: Here is 1000 RMB then!', {
                 talkWith: this
             })
             player.gold += 1000
             player.setVariable('GAIN_GOLD', true)
         }
         else {
-            await player.showText('Too bad for you!', {
+            await player.showText('👺: Too bad for you!', {
                 talkWith: this
             })
         }

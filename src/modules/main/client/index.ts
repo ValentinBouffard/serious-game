@@ -2,8 +2,8 @@ import { RpgModule, RpgClient } from '@rpgjs/client'
 import { MedievalTilesets } from './maps/medieval'
 import Characters from './characters'
 import { Images } from './images'
-import { Musics, Sounds } from './sounds'
 import { Animations } from './animations'
+import {Musics} from "./sounds";
 
 @RpgModule<RpgClient>({
     spritesheets: [
@@ -13,8 +13,7 @@ import { Animations } from './animations'
         Animations
     ],
     sounds: [
-        Musics,
-        Sounds
+        Musics
     ]
 })
 export default class RpgClientEngine {}
