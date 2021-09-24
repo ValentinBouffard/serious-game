@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54da8625-b461-4354-8e18-b64d52a28e0f" name="Default Changelist" comment="" />
+    <list default="true" id="54da8625-b461-4354-8e18-b64d52a28e0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dist/client/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/client/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/client/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/client/map.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/client/sprite.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/server/database/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/server/events/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/server/gui/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/server/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/main/server/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/server/maps/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/main/server/player.ts" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,23 +35,40 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/main/server/maps/tmx" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/main/server/maps/tmx" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="dev RPG_TYPE=rpg" type="js.build_tools.npm" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
       </scripts>
-      <arguments value="RPG_TYPE=rpg" />
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v14.17.6/bin/node" />
-      <envs />
+      <envs>
+        <env name="RPG_TYPE" value="rpg" />
+      </envs>
       <method v="2" />
     </configuration>
   </component>
@@ -54,5 +86,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/main/server/index.ts</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
