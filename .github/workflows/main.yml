@@ -8,9 +8,11 @@
 
 name: Deno
 
-on:
-  pull_request:
-    types: [published, created, edited]
+on: 
+  push:
+  pull_request: 
+    types: [synchronize, edited]
+
 
 jobs:
   test:
