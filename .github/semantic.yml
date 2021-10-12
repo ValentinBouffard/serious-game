@@ -1,0 +1,23 @@
+titleOnly: false
+commitsOnly: true
+
+scopes:
+  - brand
+  - inspector
+  - admin
+  - inspection
+  - product
+  - api
+  - public-api
+  - processes
+  - batches
+  - elastic
+  - front
+  - report
+  - po
+  - thumbnails
+  - deps
+  - deps-dev
+  - entity
+
+allowMergeCommits: true
