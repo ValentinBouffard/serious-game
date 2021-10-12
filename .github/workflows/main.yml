@@ -6,13 +6,19 @@
 # This workflow will install Deno then run Deno lint and test.
 # For more information see: https://github.com/denoland/setup-deno
 
-name: Deno
+name: semantic-pr
 
-on: pull_request
+on: 
+  pull_request: 
+    types: [synchronize, edited]
+
+
 jobs:
-  test:
+  linter:
     runs-on: ubuntu-latest
 
     steps:
       - name: semantic-pull-request
         uses: amannn/action-semantic-pull-request@v3.4.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
